@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid rgb(225, 224, 224);
+  padding: 20px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  height: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+table {
+  margin-top: 20px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
